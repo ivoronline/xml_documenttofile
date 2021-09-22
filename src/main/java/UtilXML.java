@@ -34,9 +34,9 @@ public class UtilXML {
   }
 
   //================================================================================
-  // SAVE XML TO FILE
+  // DOCUMENT TO FILE
   //================================================================================
-  public static void saveXMLToFile(String fileName, Document document) throws Exception {
+  public static void documentToFile(String fileName, Document document) throws Exception {
 
     //OPEN FILE FOR WRITING
     OutputStream       outputStream       = new FileOutputStream(fileName);

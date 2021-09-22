@@ -21,7 +21,7 @@ public class Main {
     Document document = UtilXML.stringToDocument(xmlString);
 
     //SAVE XML TO FILE
-    UtilXML.saveXMLToFile(fileXMLOutput, document);
+    UtilXML.documentToFile(fileXMLOutput, document);
 
   }
 
